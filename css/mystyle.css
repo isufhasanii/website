@@ -1,0 +1,302 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+}
+.main-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.upper-container {
+  background-color: white;
+  width: 100%;
+}
+.title-container {
+  background-color: white;
+  padding: 40px;
+}
+.menu-container{
+  background-color: white;
+  width: 100%;
+}
+.middle-container{
+  background-color: white;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.body-container{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.picture-container{
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border-right-style: solid;
+  border-width: thin;
+}
+.lebenslauf-container{
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.bottom-container{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  justify-content: space-around;
+}
+.menubar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.home, .contact{
+  float: start;
+}
+.home a, .contact a{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS";
+}
+.home a:hover, .contact a:hover{
+  background-color: white;
+  color: black;
+}
+.home{
+  border-style: solid;
+  border-width: thick;
+}
+.contact{
+  border-style: solid;
+  border-width: thick;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.titel{
+  padding: 10px;
+  margin: 30px;
+}
+.picture{
+  padding: 0;
+  margin: 10px;
+}
+.Kontaktdaten p1{
+  padding: 5px;
+  color: black;
+  font-size: medium;
+  font-weight: 800;
+}
+.Kontaktdaten p2{
+  padding: 5px;
+  color: black;
+  font-size: medium;
+}
+.lebenslaufbeschreibung{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.beschreibung{
+  padding: 10px;
+  color: black;
+  font-size: medium;
+  font-weight: 800;
+}
+.info, .info-contact, .impressum-info, .pictogram-button{
+  list-style-type: none;
+}
+.webscraper a, .contact2 a{
+  display: block;
+  color: white;
+  padding-bottom: 2px;
+  text-decoration: none;
+  font-weight: 750;
+  font-size: small;
+}
+.home1 a, .contact1 a, .name, .adress a, .impressum-button a, .datenschutz-button a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+.impressum-button a, .datenschutz-button a{
+  font-weight: 600;
+  font-size: small;
+}
+.form{
+  border-style: solid;
+  border-width: medium;
+}
+.form-input{
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.middle-contact-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.input-first, .input-last, .submit{
+  width: 60%;
+}
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myDip, #myDip2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myDip:hover, #myDip2:hover {opacity: 0.7;}
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modaldip, .modaldip2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modaldip-content, .modaldip-content2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption, #caption2, #caption3, #caption4, #caption5, #caption6, #captiondip, #captiondip2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modaldip-content, .modaldip-content2
+#caption, #caption2, #caption3, #caption4, #caption5, #caption6, #captiondip, #captiondip2 {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@keyframes zoom {
+  from {transform: scale(0.1)}
+  to {transform: scale(1)}
+}
+.close, .close2, .close3, .close4, .close5, .close6, .closedip, .closedip2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .close6:hover, .closedip:hover, .closedip2:hover
+.close:hover, .close2:focus, .close3:focus, .close4:focus, .close5:focus, .close6:focus, .closedip:focus, .closedip2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modaldip-content, .modaldip-content2 {
+    width: 100%;
+  }
+}
+.zg1-container, .zg2-container, .zg3-container, .zg4-container, .zg5-container, .zg6-container, .dip1-container, .dip2-container {
+  display: flex;
+  padding-bottom: 2%;
+}
+.zgcaption-container, .dipcaption-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.titelzg-container, .titeldip-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.titelzg, .titeldip {
+  border-bottom-style: solid;
+  border-width: thin;
+}
+.lebenslauf-container{
+  display: flex;
+  justify-content: center;
+}
+.info1, .diagram1 {
+  width: 65%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5%;
+}
+.lebenslaufbeschreibung{
+  border-bottom-style: solid;
+  border-width: thin;
+}
+.motivations-container, .zeugnis-container, .diplome-container {
+  padding: 5%;
+}
+.zgbild-container, .dipbild-container {
+  padding: 2%;
+  border-right-style: solid;
+  border-width: thin;
+  width: 50%;
+}
+.titelzg p1, .titeldip p1 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+
+
+
+
+

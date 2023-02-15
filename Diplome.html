@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Preisvergleich</title>
+  <meta name="description" content="Preisvergleich">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="stylesheet" href="css/mystyle.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <div class="upper-container">
+    <div class="title-container" style="flex-grow: 1">
+      <div class="title">
+        <a href="Lebenslauf.html"><img src="pics/Logo.png" alt="Logo" width="300" height="80"></a>
+      </div>
+    </div>
+    <div class="menu-container" style="flex-grow: 1">
+      <div class="menu">
+        <ul class="menubar">
+          <li class="home" style="flex-grow: 1"><a href="Lebenslauf.html">Lebenslauf</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Motivationsschreiben.html">Motivationsschreiben</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Zeugnisse.html">Zeugnisse</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Diplome.html">Diplome</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mitte-container">
+    <div class="diplome-container">
+      <div class="titeldip-container">
+        <div class="titelzg">
+          <p1>Zeugnisse</p1>
+        </div>
+      </div>
+      <div class="dip1-container">
+        <div class="dipbild-container">
+          <img id="myDip" src="docs/1.10diplom_page-0001.jpg" alt="iphone" width="220" height="190">
+
+          <div id="myModaldip" class="modaldip">
+            <span class="closedip">&times;</span>
+            <img class="modaldip-content" id="imgdip01">
+            <div id="captiondip"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModaldip');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myDip');
+            var modalImg = document.getElementById("imgdip01");
+            var captionText = document.getElementById("captiondip");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("closedip")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="dipcaption-container">
+          <p1><strong>Diplom: </strong>UMICH Python Beginner</p1>
+        </div>
+      </div>
+      <div class="dip2-container">
+        <div class="dipbild-container">
+          <img id="myDip2" src="docs/1.11diplom_page-0001.jpg" alt="iphone" width="180" height="200">
+
+          <div id="myModaldip2" class="modaldip2">
+            <span class="closedip2">&times;</span>
+            <img class="modaldip-content2" id="imgdip02">
+            <div id="captiondip2"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModaldip2');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myDip2');
+            var modalImg = document.getElementById("imgdip02");
+            var captionText = document.getElementById("captiondip2");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("closedip2")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="dipcaption-container">
+          <p1><strong>Diplom: </strong>Abacus Finanzbuchhaltung-Programm</p1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="website-info">
+      <ul class="info">
+        <li class="webscraper" style="flex-grow: 1"><a>Bewerbung</a></li>
+        <li class="home1" style="flex-grow: 1"><a href="Lebenslauf.html">Lebenslauf</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Motivationsschreiben.html">Motivationsschreiben</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Zeugnisse.html">Zeugnisse</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Diplome.html">Diploma</a></li>
+      </ul>
+    </div>
+    <div class="contact-bottom">
+      <ul class="info-contact">
+        <li class="contact2" style="flex-grow: 1"><a><strong>Kontakt</strong></a></li>
+        <li class="name" style="flex-grow: 1">Isuf Hasani</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>

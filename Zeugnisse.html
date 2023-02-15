@@ -1,0 +1,288 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Preisvergleich</title>
+  <meta name="description" content="Preisvergleich">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+
+
+  <link rel="stylesheet" href="css/mystyle.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <div class="upper-container">
+    <div class="title-container" style="flex-grow: 1">
+      <div class="title">
+        <a href="Lebenslauf.html"><img src="pics/Logo.png" alt="Logo" width="300" height="80"></a>
+      </div>
+    </div>
+    <div class="menu-container" style="flex-grow: 1">
+      <div class="menu">
+        <ul class="menubar">
+          <li class="home" style="flex-grow: 1"><a href="Lebenslauf.html">Lebenslauf</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Motivationsschreiben.html">Motivationsschreiben</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Zeugnisse.html">Zeugnisse</a></li>
+          <li class="contact" style="flex-grow: 1"><a href="Diplome.html">Diplome</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mitte-container">
+    <div class="zeugnis-container">
+      <div class="titelzg-container">
+        <div class="titelzg">
+        <p1>Zeugnisse</p1>
+        </div>
+      </div>
+      <div class="zg1-container">
+        <div class="zgbild-container">
+          <img id="myImg" src="docs/1.4Zeugnis5_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Bildungszentrum Zürichsee</p1>
+        </div>
+      </div>
+      <div class="zg2-container">
+        <div class="zgbild-container">
+          <img id="myImg2" src="docs/1.5Zeugnis4_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal2" class="modal2">
+            <span class="close2">&times;</span>
+            <img class="modal-content2" id="img02">
+            <div id="caption2"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal2');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg2');
+            var modalImg = document.getElementById("img02");
+            var captionText = document.getElementById("caption2");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close2")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Frühlingsemester 2022</p1>
+      </div>
+      </div>
+      <div class="zg3-container">
+        <div class="zgbild-container">
+          <img id="myImg3" src="docs/1.6Zeugnis3_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal3" class="modal">
+            <span class="close3">&times;</span>
+            <img class="modal-content" id="img03">
+            <div id="caption3"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal3');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg3');
+            var modalImg = document.getElementById("img03");
+            var captionText = document.getElementById("caption3");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close3")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Herbstsemester 2021/22</p1>
+      </div>
+      </div>
+      <div class="zg4-container">
+        <div class="zgbild-container">
+          <img id="myImg4" src="docs/1.7Zeugnis2_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal4" class="modal">
+            <span class="close4">&times;</span>
+            <img class="modal-content" id="img04">
+            <div id="caption4"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal4');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg4');
+            var modalImg = document.getElementById("img04");
+            var captionText = document.getElementById("caption4");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close4")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Frühlingsemester 2020</p1>
+      </div>
+      </div>
+      <div class="zg5-container">
+        <div class="zgbild-container">
+          <img id="myImg5" src="docs/1.8Zeugnis1_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal5" class="modal">
+            <span class="close5">&times;</span>
+            <img class="modal-content" id="img05">
+            <div id="caption5"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal5');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg5');
+            var modalImg = document.getElementById("img05");
+            var captionText = document.getElementById("caption5");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close5")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Herbstsemester 2019/20</p1>
+      </div>
+      </div>
+      <div class="zg6-container">
+        <div class="zgbild-container">
+          <img id="myImg6" src="docs/1.9ZLI_page-0001.jpg" alt="iphone" width="180" height="220">
+
+          <div id="myModal6" class="modal">
+            <span class="close6">&times;</span>
+            <img class="modal-content" id="img06">
+            <div id="caption6"></div>
+          </div>
+          <script>
+            var modal = document.getElementById('myModal6');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg6');
+            var modalImg = document.getElementById("img06");
+            var captionText = document.getElementById("caption6");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close6")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+          </script>
+        </div>
+        <div class="zgcaption-container">
+          <p1><strong>Zeugnis: </strong>Zürcher Lehrbetriebsverband ICT</p1>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="website-info">
+      <ul class="info">
+        <li class="webscraper" style="flex-grow: 1"><a>Bewerbung</a></li>
+        <li class="home1" style="flex-grow: 1"><a href="Lebenslauf.html">Lebenslauf</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Motivationsschreiben.html">Motivationsschreiben</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Zeugnisse.html">Zeugnisse</a></li>
+        <li class="contact1" style="flex-grow: 1"><a href="Diplome.html">Diploma</a></li>
+      </ul>
+    </div>
+    <div class="contact-bottom">
+      <ul class="info-contact">
+        <li class="contact2" style="flex-grow: 1"><a><strong>Kontakt</strong></a></li>
+        <li class="name" style="flex-grow: 1">Isuf Hasani</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
