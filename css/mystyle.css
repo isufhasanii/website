@@ -293,7 +293,9 @@ body {
   font-size: larger;
   font-weight: bold;
 }
-
+.picture img {
+  border-radius: 20%;
+}
 
 
 
